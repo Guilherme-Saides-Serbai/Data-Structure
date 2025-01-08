@@ -1,6 +1,4 @@
-### Estruturas de Dados – Resumo Completo
-
----
+### ***Estruturas de Dados***
 
 #### **O que são Estruturas de Dados?**
 Estruturas de dados são formas organizadas de armazenar, acessar e manipular dados em um sistema computacional. Elas permitem realizar operações como busca, inserção, remoção e ordenação de forma eficiente. Escolher a estrutura certa é crucial para resolver problemas específicos e otimizar o uso de memória e processamento.
@@ -91,10 +89,10 @@ A escolha da estrutura de dados depende de:
 Estruturas de dados são fundamentais para a ciência da computação e influenciam diretamente no desempenho e na escalabilidade de aplicações. Conhecê-las é essencial para projetar sistemas eficientes e resolver problemas computacionais de maneira otimizada.
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
 ## ***Árvores***
 
----
 
 ## **1. Pré-Ordem (Preorder)**
 - **Regras (Ordem de Visita):**  
