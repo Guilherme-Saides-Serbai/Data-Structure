@@ -60,6 +60,22 @@ class ABB
             return no;
         }
         NoABB<C, V>* removerNo(NoABB<C, V>* no, C chave){
+            if(no == nullptr){
+                return no;
+            }
+            if(chave <= no->chave){
+                no->esq = removerNo(no->esq, chave);
+            }
+            if(chave > no->chave){
+                no->dir = removerNo(no->dir, chave);
+            }
+            else{
+                if(no->esq == NULL && no->dir == NULL ){
+                    NoABB * temp = no;
+                    delete no;
+                    return temp;
+            }
+            }
             
         }
         void ABB<C, V>::imprimirNo(NoABB<C, V> *no, int nivel, char lado){
