@@ -18,5 +18,3 @@ void posordem(AB * a){
     posordem(a->dir);
     std::cout<< a->chave << std::endl;
 }
-
- 
